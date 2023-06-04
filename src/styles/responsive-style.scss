@@ -78,11 +78,13 @@
 @media screen and (max-width: 768px) {
   .pil-items {
     flex-direction: column;
-    gap: 12px;
-    width: 90%;
+    gap: 0;
     .pil-item {
-      width: 90%;
+      width: 100%;
     }
+  }
+  .bodycontent {
+    padding: 360px 64px 32px 64px;
   }
 }
 

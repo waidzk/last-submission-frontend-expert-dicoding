@@ -121,14 +121,9 @@ header .appName {
   position: relative;
   width: 100%;
   padding: 0 72px;
-}
-#content .hero .overlay {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.6) 36.82%, rgba(0, 0, 0, 0) 73.48%);
-  display: block;
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #content .hero .heroImage {
   width: 100%;
@@ -171,13 +166,10 @@ header .appName {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 32px;
   position: absolute;
   top: 90%;
-  z-index: 20;
-  width: 90%;
-  padding: 0;
+  z-index: 30;
+  gap: 32px;
 }
 #content .hero .pil-items .pil-item {
   display: flex;
@@ -198,7 +190,7 @@ header .appName {
 
 /*main - body explore */
 .bodycontent {
-  padding: 120px 128px;
+  padding: 120px 128px 24px 128px;
   /* main - restaurant-list */
 }
 .bodycontent #restaurant-list {
@@ -272,7 +264,6 @@ header .appName {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
   gap: 56px;
   margin-top: 10px;
 }

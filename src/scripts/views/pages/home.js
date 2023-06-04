@@ -6,7 +6,6 @@ const Home = {
   async render() {
     return `
     <section class="hero">
-      <div class="overlay"></div>
       <div class="heroImage">
           <img src="/images/heros/hero.jpg" alt="hero image">
       </div>
