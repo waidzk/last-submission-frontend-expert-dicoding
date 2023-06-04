@@ -1,0 +1,89 @@
+@media screen and (max-width: 425px) {
+  /* header -- navigation */
+  header {
+    padding: 10px;
+    justify-content: left;
+    background-color: #000;
+  }
+  header .menuMobile {
+    display: block;
+    margin-right: 20px;
+  }
+  header .menuMobile img {
+    width: 44px;
+    height: 44px;
+  }
+
+  .nav {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(6px);
+    width: 60%;
+    min-height: 100vh;
+    -webkit-transform: translate(-300px, 0);
+    transform: translate(-300px, 0);
+    transition: 0.2s ease-in-out;
+  }
+  .nav .appName {
+    display: none;
+  }
+  .nav .navList {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav .navList .navItem {
+    list-style-type: none;
+  }
+  .nav .navList .navItem a {
+    color: #fff;
+    font-size: 18px;
+  }
+
+  .open {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+
+  #content .hero {
+    padding: 0px;
+  }
+  #content .hero .heroImage img {
+    border-radius: 0px;
+  }
+
+  /* DETAIL PAGE */
+  .head-restaurantDetail {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .review-head {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 768px) {
+  .pil-items {
+    flex-direction: column;
+    gap: 12px;
+    width: 90%;
+  }
+  .pil-items .pil-item {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 666px) {
+  .review-box {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=responsive-style.css.map */
