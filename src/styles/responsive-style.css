@@ -3,7 +3,6 @@
   header {
     padding: 10px;
     justify-content: left;
-    background-color: #000;
   }
   header .menuMobile {
     display: block;
@@ -55,6 +54,38 @@
     border-radius: 0px;
   }
 
+  #recommended-section {
+    padding: 72px 84px;
+  }
+
+  .recommended-food {
+    flex-direction: column;
+  }
+  .recommended-food .recommended-image,
+.recommended-food .recommended-info {
+    width: 320px;
+  }
+
+  .footer-section {
+    flex-direction: column;
+    padding: 82px 32px;
+  }
+  .footer-section .right-footer {
+    margin-top: 20px;
+  }
+  .footer-section .right-footer .links {
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+  .footer-section .right-footer .links .wrap-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
   /* DETAIL PAGE */
   .head-restaurantDetail {
     display: flex;
@@ -81,6 +112,11 @@
 
   .bodycontent {
     padding: 360px 64px 32px 64px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .right-footer {
+    gap: 24px;
   }
 }
 @media screen and (max-width: 666px) {

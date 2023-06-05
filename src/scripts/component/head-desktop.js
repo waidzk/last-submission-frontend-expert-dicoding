@@ -7,7 +7,7 @@ class HeadDesktop extends HTMLElement {
     this.innerHTML = `
     <header>
         <button id="menu" class="menuMobile">
-          <img aria-label="ikon menu" alt="ikon menu" src="../images/icons/icons8-menu.svg">
+          <img aria-label="ikon menu" alt="ikon menu" src="../images/icons/menu-icon.svg">
         </button>
     </header>
     <nav id="drawer" class="nav">

@@ -7,7 +7,7 @@ const Home = {
     return `
     <section class="hero">
       <div class="heroImage">
-          <img src="/images/heros/hero.jpg" alt="hero image">
+          <img src="/images/hero.jpg" alt="hero image">
       </div>
       <div class="heroContent">
           <h1 class="heroTitle"><span class="explore-text">Explore</span><br/>The Indonesia Restaurants</h1>
@@ -50,18 +50,7 @@ const Home = {
         </div>
       </div>
     </section>
-
-    <section id="contact">
-      <h2 class="subTitle">CONTACT US</h2>
-      <p class="bidText">if your restaurant doesn't exist yet</p>
-      <a class="email" href="mailto:hungercs@hungerapps.id">
-        <div class="email-box">
-          <img alt="logo gmail" data-src="/images/icons/gmail-logo.png" class="gmail-logo lazyload">
-          <p>hungercs@gmail.com</p>
-        </div>
-      </a>
-    </section>
-        `;
+    `;
   },
 
   async afterRender() {

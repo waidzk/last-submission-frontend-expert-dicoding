@@ -320,12 +320,47 @@ header .appName {
   width: 50px;
 }
 
-footer {
-  display: none;
-  padding: 30px;
-  text-align: center;
-  background-color: #161616;
-  color: #ecdbba;
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #dd4a48;
+  border-radius: 20px 20px 0px 0px;
+  padding: 82px 112px;
+}
+.footer-section .left-footer .brand-footer {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 64px;
+  color: #ffffff;
+}
+.footer-section .left-footer .desc-footer {
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+}
+.footer-section .right-footer .links {
+  display: flex;
+  align-items: start;
+  gap: 48px;
+}
+.footer-section .right-footer .links .wrap-link {
+  color: #fff;
+  width: 178px;
+}
+.footer-section .right-footer .links .wrap-link h4 {
+  font-weight: 600;
+  font-size: 18px;
+}
+.footer-section .right-footer .links .wrap-link ul li {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+}
+.footer-section .right-footer .links .wrap-link ul li a {
+  color: #fff;
+  text-decoration: none;
 }
 
 /* FAVORITE_PAGE */
@@ -369,7 +404,7 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  width: 60%;
+  width: 80%;
 }
 
 .head-restaurantDetail {

@@ -13,7 +13,7 @@ const createRestaurantDetailTemplate = (restaurant) => `
                     <p class="restaurant-city-detail">${restaurant.city}, ${restaurant.address}</p>
                 </div>
                 <div>
-                    <p class="restaurant-rating-detail"><img alt="rating" class="star-rating-img lazyload" data-src="/images/icons/star.png"> ${restaurant.rating}</p>
+                    <p class="restaurant-rating-detail"><img alt="rating" class="star-rating-img lazyload" data-src="/images/icons/star-icon.svg"> ${restaurant.rating}</p>
                 </div>
             </div>
             <div class="description-restaurantDetail">
